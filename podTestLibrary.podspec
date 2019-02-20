@@ -30,6 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
+  s.requires_arc        = true
   s.source_files = 'podTestLibrary/Classes/**/*'
   s.resource_bundles = {
     'Assets' => ['podTestLibrary/Assets/**/*']
@@ -39,7 +40,8 @@ Pod::Spec.new do |s|
   #   'podTestLibrary' => ['podTestLibrary/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit'#, 'MapKit'
-  s.dependency 'AFNetworking'
+  s.public_header_files = 'podTestLibrary/Classes/**/*.h'
+  s.preserve_paths      = "*.framework"
+  #s.frameworks = 'UIKit'#, 'MapKit'
+  s.dependency 'React'
 end
