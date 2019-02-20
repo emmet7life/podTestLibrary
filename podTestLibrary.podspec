@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'podTestLibrary'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of podTestLibrary.'
+  s.summary          = 'Just Usage For Pod Spec Test.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-              我是描述！！
+                        这只是一个用来测试实践CocoaPods Spec功能的项目，仅供测试。！！！2019.
                        DESC
 
   s.homepage         = 'https://github.com/emmet7life/podTestLibrary'
