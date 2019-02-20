@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'podTestLibrary'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'Just Usage For Pod Spec Test.'
 
 # This description is used to generate tags and improve search results.
@@ -32,16 +32,9 @@ Pod::Spec.new do |s|
 
   s.requires_arc        = true
   s.source_files = 'podTestLibrary/Classes/**/*'
-  s.resource_bundles = {
-    'Assets' => ['podTestLibrary/Assets/**/*']
-  }
-  
-  # s.resource_bundles = {
-  #   'podTestLibrary' => ['podTestLibrary/Assets/*.png']
-  # }
-
-  s.public_header_files = 'podTestLibrary/Classes/**/*.h'
-  s.preserve_paths      = "*.framework"
-  #s.frameworks = 'UIKit'#, 'MapKit'
-  s.dependency 'React'
+  #s.resource_bundles = {
+    #'Assets' => ['podTestLibrary/Assets/*.{jpg,txt}']
+  #}
+  #s.public_header_files = 'podTestLibrary/Classes/*.h'
+  s.frameworks = 'UIKit'#, 'MapKit'
 end
