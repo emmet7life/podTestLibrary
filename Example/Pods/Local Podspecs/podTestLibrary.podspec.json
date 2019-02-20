@@ -1,0 +1,22 @@
+{
+  "name": "podTestLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of podTestLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/emmet7life/podTestLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "emmet7life": "chenjianli@vcomic.com"
+  },
+  "source": {
+    "git": "https://github.com/emmet7life/podTestLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "podTestLibrary/Classes/**/*"
+}
